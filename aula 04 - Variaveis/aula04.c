@@ -8,6 +8,12 @@
 
 int main(int argc, char const *argv[])
 {
+    /*Tipos de variaveis
+    char  ==> caracter %c ==> 8 bits
+    int   ==> numero inteiro %d ==> 32 bits
+    float ==> numero real %f ==> 32 bits
+    double ==> numeros realis com mais de 15 casas ==> 64 bits
+    */
     //Nao pode comecar a variavel com numero, caracteres especiais
     int valor, valor2; //Criei uma variavel para guardar um valor do tipo inteiro
 
