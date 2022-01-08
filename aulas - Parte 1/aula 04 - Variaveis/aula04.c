@@ -9,10 +9,20 @@
 int main(int argc, char const *argv[])
 {
     /*Tipos de variaveis
-    char  ==> caracter %c ==> 8 bits
-    int   ==> numero inteiro %d ==> 32 bits
-    float ==> numero real %f ==> 32 bits
-    double ==> numeros realis com mais de 15 casas ==> 64 bits
+    Tipo            Num de bits     Formato i/o            Inicio                Fim
+    char                8               %c                   -128                127
+    unsigned char       8               %c                      0                255
+    int                 32              %d         -2.147.483.648      2.147.483.647
+    unsigned int        32              %u                      0      4.294.967.295
+    long int            32              %li        -2.147.483.648      2.147.483.647
+    unsigned long int   32              %lu                     0      4.294.967.295
+    short int           16              %hi               -32.768             32.767
+    unsigned short int  16              %hu                     0         65.535
+    float               32              %f               3.4 E-38       3.4 E+38
+    double              64              %lf             1.7 E-308       1.7 E+308
+                        
+    
+
     */
     //Nao pode comecar a variavel com numero, caracteres especiais
     int valor, valor2; //Criei uma variavel para guardar um valor do tipo inteiro
