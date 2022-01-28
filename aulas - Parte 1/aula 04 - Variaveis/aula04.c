@@ -20,6 +20,8 @@ int main(int argc, char const *argv[])
     unsigned short int  16              %hu                     0         65.535
     float               32              %f               3.4 E-38       3.4 E+38
     double              64              %lf             1.7 E-308       1.7 E+308
+    long long int                       %lld ou lli
+    long double                         %Lf
                         
     
 
