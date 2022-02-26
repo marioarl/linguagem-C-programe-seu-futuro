@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /*
 Faça um programa para ordenar um vetor com 100 numeros inteiros.
