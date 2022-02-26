@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /*
 Faça um programa que imprima na tela a diagonal secundaria de uma matriz 7 x 7
