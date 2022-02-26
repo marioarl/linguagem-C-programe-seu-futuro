@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /*
 Crie um programa que preencha uma matriz 5 x 10 com numeros inteiros.
